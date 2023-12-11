@@ -1,28 +1,18 @@
 import { FlatList, StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const days = new Array(24);
-export default function DayListItem(props) {
+type DayListItem = {
+  day: number;
+};
+export default function DayListItem({ day }: DayListItem) {
   return (
     <View style={styles.box}>
-      <Text style={styles.text}>{props.day + 1}</Text>
+      <Text style={styles.text}>{day}</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-  },
-
-  content: {
-    gap: 10,
-    padding: 10,
-  },
-  column: {
-    gap: 10,
-  },
   box: {
     backgroundColor: "#F9EDE3",
     borderWidth: StyleSheet.hairlineWidth,
@@ -37,6 +27,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "#9b4521",
-    fontSize: 30,
+    fontSize: 75,
+    fontFamily:'Amatic'
   },
 });

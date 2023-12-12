@@ -1,14 +1,17 @@
-import { FlatList, StyleSheet, Text, View } from "react-native";
+import { FlatList, Pressable, StyleSheet, Text, View } from "react-native";
 import React from "react";
+import { Link } from "expo-router";
 
 type DayListItem = {
   day: number;
 };
 export default function DayListItem({ day }: DayListItem) {
   return (
-    <View style={styles.box}>
-      <Text style={styles.text}>{day}</Text>
-    </View>
+    <Link href={`/day${day}`} asChild>
+      <Pressable style={styles.box}>
+        <Text style={styles.text}>{day}</Text>
+      </Pressable>
+    </Link>
   );
 }
 
@@ -28,6 +31,6 @@ const styles = StyleSheet.create({
   text: {
     color: "#9b4521",
     fontSize: 75,
-    fontFamily:'Amatic'
+    fontFamily: "Amatic",
   },
 });

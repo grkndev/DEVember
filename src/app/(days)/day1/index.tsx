@@ -6,7 +6,7 @@ const day1 = () => {
   return (
     <View>
       <Stack.Screen options={{title:'Day 1'}} />
-      <Text>day1</Text>
+      <Text style={{ fontSize: 100, fontFamily: "Amatic" }}>day1</Text>
     </View>
   )
 }

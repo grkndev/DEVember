@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "latitude": 37.7749,
+      "longitude": -122.4194,
+      "price": 150,
+      "title": "Modern Downtown Apartment",
+      "numberOfStars": 4.5,
+      "image":
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT99Yhfu6cnAs9gz5BqcMPOI9GGsxuh_hIxjELkYnTJkqrXzs3g_MvJJYjd25v9MVYDZzc&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "latitude": 37.7837,
+      "longitude": -122.4089,
+      "price": 120,
+      "title": "Cozy Studio near Union Square",
+      "numberOfStars": 4.0,
+      "image":
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWaXZNS0fDOY0zUVYMj1yAWdEnz0gvhHEHr9SWOT960B2xTLbl-jUGx0IFEKx8R1PVtvY&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "latitude": 37.7735,
+      "longitude": -122.4526,
+      "price": 200,
+      "title": "Luxurious Penthouse with Bay View",
+      "numberOfStars": 5.0,
+      "image":
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhpmlcBu2guCfNBgkhX7KrG_hoD6bpZVj4zYh1_qtxJ267xy2dibh4wozVWww7u8WbmM&usqp=CAU"
+    },
+    {
+      "id": 4,
+      "latitude": 37.7587,
+      "longitude": -122.3895,
+      "price": 100,
+      "title": "Charming Victorian House",
+      "numberOfStars": 4.2,
+      "image":
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu7aud3L_Xx0gLApfxoosLIK5d35qXeFEeqykf_3fDWyVC7nyxhMrBzNtdAOUqjFupyI&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "latitude": 37.7955,
+      "longitude": -122.4026,
+      "price": 180,
+      "title": "Artistic Loft in SoMa District",
+      "numberOfStars": 4.8,
+      "image":
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu7aud3L_Xx0gLApfxoosLIK5d35qXeFEeqykf_3fDWyVC7nyxhMrBzNtdAOUqjFupyI&usqp=CAU"
+    }
+  ]
+  

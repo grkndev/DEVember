@@ -31,7 +31,7 @@ const RootLayout = () => {
 
   useEffect(() => {
     if (fontLoaded || fonterr) {
-      // SplashScreen.hideAsync();
+      SplashScreen.hideAsync();
       setAppReady(true);
     }
   }, [fontLoaded, fonterr]);

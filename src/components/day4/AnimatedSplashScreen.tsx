@@ -1,7 +1,7 @@
 import { View } from "react-native";
 import React, { useRef } from "react";
 import LottieView from "lottie-react-native";
-import Animated, { FadeOut } from "react-native-reanimated";
+import Animated, { FadeOut, ZoomOut } from "react-native-reanimated";
 export default function AnimatedSplashScreen({
   onAnimationFinish = (isCancelled) => {},
 }: {
@@ -10,6 +10,7 @@ export default function AnimatedSplashScreen({
   const animation = useRef<LottieView>(null);
   return (
     <Animated.View
+      // exiting={ZoomOut}
       exiting={FadeOut.duration(300)}
       style={{
         flex: 1,

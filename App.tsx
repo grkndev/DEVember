@@ -15,12 +15,12 @@ import {
 import * as SplashScreen from "expo-splash-screen";
 import { useEffect } from "react";
 
-SplashScreen.preventAutoHideAsync();
+// SplashScreen.preventAutoHideAsync();
 const days = new Array(24);
 export default function App() {
   const [fontLoaded, fonterr] = useFonts({
     Inter: Inter_900Black,
-    Amatic: AmaticSC_400Regular,
+    AmaticRegular: AmaticSC_400Regular,
     AmaticBold: AmaticSC_700Bold
   });
   useEffect(() => {

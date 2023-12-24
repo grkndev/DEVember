@@ -14,6 +14,7 @@ import {
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import * as SplashScreen from "expo-splash-screen";
 import AnimatedSplashScreen from "@/components/day4/AnimatedSplashScreen";
+import BiometricsProvider from "@/components/day10/BiometricsProvider";
 
 // SplashScreen.preventAutoHideAsync();
 const RootLayout = () => {
@@ -49,11 +50,13 @@ const RootLayout = () => {
   }
 
   return (
-    <GestureHandlerRootView style={{ flex: 1 }}>
-      <Stack>
-        <Stack.Screen name="index" options={{ title: "DEVember" }} />
-      </Stack>
-    </GestureHandlerRootView>
+    <BiometricsProvider>
+      <GestureHandlerRootView style={{ flex: 1 }}>
+        <Stack>
+          <Stack.Screen name="index" options={{ title: "DEVember" }} />
+        </Stack>
+      </GestureHandlerRootView>
+    </BiometricsProvider>
   );
 };
 

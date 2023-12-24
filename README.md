@@ -1,5 +1,7 @@
-# Day 8: Weather App
+# Day 10: Biometrics
 
+### Day 9: AWS Amplify Auth
+### Day 8: Weather App
 ### Day 7: Voice Memos App
 ### Day 6: Tinder Swipe Animation
 ### Day 5: AirBnb Map

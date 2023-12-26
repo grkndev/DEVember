@@ -1,5 +1,6 @@
-# Day 10: Biometrics
+# Day 11: Vision Camera
 
+### Day 10: Biometrics
 ### Day 9: AWS Amplify Auth
 ### Day 8: Weather App
 ### Day 7: Voice Memos App

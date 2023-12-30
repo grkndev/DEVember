@@ -30,7 +30,7 @@ const CameraScreen = () => {
   const codeScanner = useCodeScanner({
     codeTypes: ['qr', 'ean-13'],
     onCodeScanned: (codes) => {
-      console.log(`Scanned ${codes.length} codes!`);
+      // console.log(`Scanned ${codes.length} codes!`);
       console.log(codes[0]);
     },
   });
@@ -91,7 +91,7 @@ const CameraScreen = () => {
     camera.current.startRecording({
       flash: flash === 'on' ? 'on' : 'off',
       onRecordingFinished: (video) => {
-        console.log(video);
+        // console.log(video);
         setIsRecording(false);
         setVideo(video);
       },

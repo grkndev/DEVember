@@ -52,14 +52,14 @@ export default function MemosScreen() {
 
   async function stopRecording() {
     if (!recording) return;
-    console.log("Stopping recording..");
+    // console.log("Stopping recording..");
     setRecording(undefined);
     await recording.stopAndUnloadAsync();
     await Audio.setAudioModeAsync({
       allowsRecordingIOS: false,
     });
     const uri = recording.getURI();
-    console.log("Recording stopped and stored at", uri);
+    // console.log("Recording stopped and stored at", uri);
     metering.value = -100;
 
     if (uri) {

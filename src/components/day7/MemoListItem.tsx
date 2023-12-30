@@ -19,7 +19,7 @@ export default function MemoListItem({ memo }: { memo: Memo }) {
   const [status, setStatus] = useState<AVPlaybackStatus>();
 
   async function loadSound() {
-    console.log("Loading Sound");
+    // console.log("Loading Sound");
     const { sound } = await Audio.Sound.createAsync(
       { uri: memo.uri },
       { progressUpdateIntervalMillis: 1000 / 60 },
@@ -75,7 +75,7 @@ export default function MemoListItem({ memo }: { memo: Memo }) {
   useEffect(() => {
     return sound
       ? () => {
-          console.log("Unloading Sound");
+          // console.log("Unloading Sound");
           sound.unloadAsync();
         }
       : undefined;

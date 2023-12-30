@@ -86,7 +86,7 @@ export default function tinder() {
   }, [index]);
 
   const onResponse = (res: true | false ) => {
-    // console.log(res);
+
   };
 
   return (

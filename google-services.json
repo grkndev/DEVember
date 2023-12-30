@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "71022124100",
+    "project_id": "devember-41860",
+    "storage_bucket": "devember-41860.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71022124100:android:346211ed0352636cb93011",
+        "android_client_info": {
+          "package_name": "com.gweepcreative.DEVember"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5LmG41XT-MlnB-dmpj8qAHDs7nZygwsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

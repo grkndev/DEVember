@@ -12,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
@@ -52,7 +54,7 @@
         {
           "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera.",
           "enableMicrophonePermission": true,
-          "enableCodeScanner":true,
+          "enableCodeScanner": true,
           "microphonePermissionText": "$(PRODUCT_NAME) needs access to your Microphone."
         }
       ],
@@ -75,6 +77,12 @@
       "eas": {
         "projectId": "d621b081-37d1-401c-a1e3-fadeb6392d7a"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d621b081-37d1-401c-a1e3-fadeb6392d7a"
     }
   }
 }

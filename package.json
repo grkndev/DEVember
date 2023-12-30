@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "expo-router/entry",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web"
@@ -38,7 +38,9 @@
     "react-native-screens": "~3.22.0",
     "react-native-vision-camera": "^3.6.17",
     "react-native-web": "~0.19.6",
-    "expo-build-properties": "~0.8.3"
+    "expo-build-properties": "~0.8.3",
+    "expo-updates": "~0.18.18",
+    "expo-dev-client": "~2.4.12"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
